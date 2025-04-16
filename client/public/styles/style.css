@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: default;
+    user-select: none;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+  }
+  .navBar{
+    background-color : orange;
+    margin: 0px;
+    padding: 30px;
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px .1px 7px;
+    cursor:default;
+    position: sticky;
+  }
+  .navTitle{
+    color: white;
+    font-size: 2.5rem;
+    position: sticky;
+  }
+  header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  footer p {
+    color: #ccc;
+  }
+  .noteStyle{
+    background-color: #FFE17B;
+    min-height: 150px;
+    width:300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    cursor:default;
+    font-size: 1.1em;
+  }
+  .noteStyle p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .container{
+    display:flex;
+    width: 100vw;
+    height: 70vh;
+  }
+  .fixed{
+    margin-right:20px;
+    margin-left:20px;
+    top:1.7%;
+    border:0px;
+    font-size:50px;
+    text-align: center;
+  }
+  .createContainer{
+    display: flex;
+    position: fixed;
+    top:0px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index:999;
+  }
+  .createNote{
+    position:fixed;
+    top:10%;
+    min-width:500px;
+    width:60%;
+    max-width: 550px;
+    height: 80%;
+    background-color:#C51605;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px;
+    box-shadow: 0px 5px 25px;
+  }
+  input{
+    border:0px;
+    border-radius: 15px;
+    height: 15%;
+    width: 70%;
+    max-width: 500px;
+    min-height:40px;
+    margin-left:20%;
+  }
+  .noteInput{
+    margin:30%;
+    width:130%;
+    max-width:500px;
+    height: 50%;
+    max-height:300px;
+    font-size:30px;
+    font-family: "McLaren", cursive;
+  }
+  .submit{
+    background-color: #F97B22;
+    border-radius: 15px;
+    width: 35%;
+    max-width:200px;
+    height: 20%;
+    max-height:60px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 10%;
+  }
+  .deleteNote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #C51605;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left:235px;
+    box-shadow: 0px 0px 5px;
+  }
